@@ -31,7 +31,7 @@ function TodoItemCreator() {
   return (
     <div>
       <input type="text" value={inputValue} onChange={onChange} />
-      <button onClick={addItem}>Add</button>
+      {/* <button onClick={addItem}>Add</button> */}
     </div>
   )
 }
